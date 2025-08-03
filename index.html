@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;}
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;}
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;}
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #444;
+      padding: 10px 0;}
+
+    nav a {
+      color: white;
+      text-decoration: none;}
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;}
+
+    h2 {
+      margin-bottom: 20px;
+      color: #222;}
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;}
+
+    .project {
+      margin-bottom: 20px;}
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;}
+
+    .contact-form button {
+      padding: 10px 15px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;}
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;}
+
+    @media (max-width: 600px) {
+      nav {flex-direction: column;}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RAHEEM MOTUNRAYO TAIBAT</h1>
+    <p>Welcome to my digital space.I am a purpose driven tech enthusiast and also a student<br>
+      of Power Learn Project(PLP).I am dedicated to building transformational solutions and<br>
+      empowering the next generations.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#interests">Interests</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate tech enthusiast driven by curiosity and a love for solving problems.<br> My goal is to contribute to real-world solutions using technology and continuous learning.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>SQL</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Educational Background</h2>
+    <p>HIGHER NATIONAL DIPLOMA FROM KWARA STATE POLYTECHNIC ILORIN.KWARA STATE.</p>
+    <p>Graduation Year: 2011</p>
+    <a href="CV.pdf" download>Download My CV</a>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <p>I am fascinated by the power of artificial intelligence, web development, and data analytics.<br> I am especially passionate about building tools that help people make better decisions through technology.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Sales Prediction Model</h3>
+      <p>A machine learning model that predicts product sales using historical data.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Personal Blog Website</h3>
+      <p>A responsive blog site created using HTML, CSS, and JavaScript.</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Raheem Motunrayo Taibat . All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
